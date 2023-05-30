@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    font-family: sans-serif;
+}
+
+.nav{
+    width: 100;
+    height:10vh;
+    background-color: rgb(6, 154, 173);
+    display: flex;
+    position: relative;
+}
+ .infos{
+    display: flex;
+    left: 80%;
+    position: absolute;
+ }
+ .infos a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    margin-top: 15px;
+ }
+ .banner img{
+    position: relative;
+
+ }
+ .banner h1{
+    position: absolute;
+    top: 15%;
+    left: 41%;
+    font-size: xx-large;
+    color: white;
+ }
+ .banner button{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    padding: 10px 25px;
+    background-color: rgb(6, 154, 173);
+    color: white;
+    border: none;
+
+ }
+ .tickets{
+   font-size: 32px;
+   color:  rgb(6, 154, 173);
+   margin-top: 50px;
+
+ }
+ .tickets p{
+   margin-left: 150px;
+   margin-bottom: 50px;
+ }
+ .tickets img{
+   margin: 0px 60px;
+ }
+ .cards{
+   display: flex;
+   width: 80%;
+ }
+ .card1{
+   background-color: rgb(6, 154, 173);
+   color: white;
+   padding: 10px;
+ }
+ .card1 h2{
+   padding-bottom: 40px;
+   font-size: 40px;
+ }
+ .card1 p{
+   padding-bottom: 40px;
+   font-size: 20px;
+ }
+ .card1 .btn1 button{
+  margin-bottom: 35px;
+   padding: 10px 20px;
+   background-color: rgb(165, 245, 254);
+   color: black;
+   border: none;
+ }
+ .card1 .btn1 button:hover {
+   background-color: white;
+ }
+ .card1 .btn2 button{
+   
+   padding: 10px 20px;
+   background-color: rgb(255, 255, 255);
+   color: black;
+   border: none;
+ }
+ .card1 .btn2 button:hover {
+   background-color: rgb(165, 245, 254);
+ }
+ .card3{
+   background-color: rgb(6, 154, 173);
+   color: white;
+   padding: 10px;
+ }
+ .card3 h2{
+   padding-bottom: 40px;
+   font-size: 40px;
+ }
+ .card3 p{
+   padding-bottom: 40px;
+   font-size: 20px;
+ }
+ .plan{
+   font-size: 32px;
+   color:  rgb(6, 154, 173);
+   margin-top: 50px;
+ }
+
+ .plan p{
+   margin-left: 150px;
+   margin-bottom: 50px;
+ }
+
+ .coaster{
+   font-size: 32px;
+   color:  rgb(6, 154, 173);
+   margin-top: 50px;
+ }
+
+ .coaster p{
+   margin-left: 150px;
+   margin-bottom: 50px;
+ }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+i{
+  font-size: 30px;
+}
+i:hover{
+  color: brown;
+}
+  .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .disneyimg{
+    width: 150px;
+  }
+  .col{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .col:nth-child(1)>a{
+    font-weight: 600;
+  }
+  .col:nth-child(1)>a:hover{
+    color: brown;
+  }
